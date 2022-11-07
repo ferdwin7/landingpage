@@ -1,3 +1,14 @@
+/* navbar = nav
+logo = left
+links = right
+opening = welcome
+text = left
+image = right
+herotext = hero
+secondarytext = secondary
+
+*/
+
 .navbar {
     display: flex;
     justify-content: space-between;
