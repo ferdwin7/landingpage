@@ -110,14 +110,7 @@ a {
     padding-right: 400px;
 }
 
-.quotetext {
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-}
-
-
-.quote .text {
+.quote em {
     font-size: 36px;
     color: #1F2937;
     margin: 0;
@@ -127,12 +120,17 @@ a {
 }
 
 
-.quote .author {
+.quote p {
     margin-top: 0px;
     display: flex;
     justify-content: end;
     font-weight: bold;
     font-size: 24px;
+}
+
+strong {
+    font-size: 24px;
+    color: #FFF;
 }
 
 
@@ -166,7 +164,9 @@ a {
 }
 
 .signup .subtext {
-    color: white;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
 }
 
 .footer {
